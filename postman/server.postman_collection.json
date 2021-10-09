@@ -50,7 +50,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/setUserName?userName=yandex pidrbI",
+					"raw": "localhost:3000/setUserName?userName=yandex lapbI",
 					"host": [
 						"localhost"
 					],
@@ -61,7 +61,7 @@
 					"query": [
 						{
 							"key": "userName",
-							"value": "yandex pidrbI"
+							"value": "yandex lapbI"
 						}
 					]
 				}
