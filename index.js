@@ -1,9 +1,15 @@
 const express = require('express');
-const app = express()
-const port = 3000
+const app = express();
+const port = 3000;
+const bodyParser = require('body-parser')
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     res.send('POHOL na HUI')
+})
+
+app.post('/', (req, res) => {
+    res.send(`POHOL na ${req.body.idu}`);
 })
 
 app.listen(port, () => {
