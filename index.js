@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.send(`${req.cookies.user} ${req.body.message} ${req.body.idu}`);
+    res.send(`${req.cookies.user} 123 ${req.body.message} ${req.body.idu}`);
 })
 
 app.get('/setUserName', (req, res) => {
