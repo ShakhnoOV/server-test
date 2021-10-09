@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "f4a89249-951a-4040-a5d4-f90754c81a28",
+		"name": "server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hello messge",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"POSHOL na 2\",\r\n    \"idu\": \"HUI 4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "setCookie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/setUserName?userName=yandex pidrbI",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"setUserName"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "yandex pidrbI"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
