@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.send(`POHOL na ${req.body.idu}`);
+    res.send(`${req.body.message} ${req.body.idu}`);
 })
 
 app.listen(port, () => {
